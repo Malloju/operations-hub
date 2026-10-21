@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files (keep checked-in examples only)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build, test, and tool output
+dist/
+**/dist/
+build/
+**/build/
+coverage/
+**/coverage/
+.vite/
+**/.vite/
+.next/
+**/.next/
+
+# Local databases and database journals
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+/data/
+/server/data/
+
+# Secret material and local credentials
+secrets/
+**/secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Logs and local OS artifacts
+*.log
+.DS_Store
+Thumbs.db
